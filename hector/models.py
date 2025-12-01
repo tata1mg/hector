@@ -22,7 +22,11 @@ class CovReport:
 
     def __post_init__(self):
         if isinstance(self.totals, dict):
-            self.totals = CovReportTotals(**self.totals)
+            # Filter dict to only include fields defined in CovReportTotals
+            # This rejects extra keys like 'percent_statements_covered'
+            valid_fields = set(CovReportTotals.__dataclass_fields__.keys())
+            filtered_totals = {k: v for k, v in self.totals.items() if k in valid_fields}
+            self.totals = CovReportTotals(**filtered_totals)
 
     @property
     def overall_coverage(self):
