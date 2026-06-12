@@ -1,0 +1,25 @@
+pyproject.toml
+  s_71c814f2f3532c::t_f3db248703f602 26
+  s_71c814f2f3532c::t_aea1f3dc5f9517 13-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "d1f9dfde59c5b57ca3fd581dfc39d6e17db3780e",
+  "prompts": {},
+  "humans": {
+    "h_dccf633cddfdb6": {
+      "author": "rishabh <jain.rishabh2807@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_71c814f2f3532c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "980bce61-d826-45c8-9632-3038db4854af",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "rishabh <jain.rishabh2807@gmail.com>"
+    }
+  }
+}
