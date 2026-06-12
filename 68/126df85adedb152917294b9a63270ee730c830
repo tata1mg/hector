@@ -1,0 +1,27 @@
+poetry.lock
+  ai_agent 5,9,11-12,17-18,20-21,23-58,63,67,69-197,202,205-206,208-209,221-222,234,251,254-255,257-258,262,270,284,287-288,290-291,299,301,303-304,308,312,314-402,411,423,435,438-439,441-442,450,453-454,456-457,461,464,468,472,475-476,478-479,495,522,530,533-534,536-537
+pyproject.toml
+  s_71c814f2f3532c::t_aea1f3dc5f9517 13-14
+  s_71c814f2f3532c::t_f3db248703f602 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "68126df85adedb152917294b9a63270ee730c830",
+  "prompts": {},
+  "humans": {
+    "h_dccf633cddfdb6": {
+      "author": "rishabh <jain.rishabh2807@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_71c814f2f3532c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "980bce61-d826-45c8-9632-3038db4854af",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "rishabh <jain.rishabh2807@gmail.com>"
+    }
+  }
+}
