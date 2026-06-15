@@ -1,0 +1,24 @@
+poetry.lock
+  ai_agent 578-579
+pyproject.toml
+  s_6df06bbe9af591::t_1068faa078e763 13
+  s_6df06bbe9af591::t_d3731a2d933fa5 26
+hector/client.py
+  s_6df06bbe9af591::t_adab7ae29e414e 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "186202e5301ef284ad8f4c6287001e10da154834",
+  "prompts": {},
+  "sessions": {
+    "s_6df06bbe9af591": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c19f9045-5cae-4e20-8067-6768b71a15b2",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "rishabh <jain.rishabh2807@gmail.com>"
+    }
+  }
+}
