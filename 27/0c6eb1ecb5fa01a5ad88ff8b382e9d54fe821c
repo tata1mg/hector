@@ -1,0 +1,19 @@
+poetry.lock
+  s_29e9f9e104c703::t_8cb82db27f46e4 560,566-567
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "270c6eb1ecb5fa01a5ad88ff8b382e9d54fe821c",
+  "prompts": {},
+  "sessions": {
+    "s_29e9f9e104c703": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acd20757-1901-4044-a791-dd2465758907",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Anubhav Verma <anubhav.verma@1mg.com>"
+    }
+  }
+}
